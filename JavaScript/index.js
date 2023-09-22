@@ -70,8 +70,14 @@ const skills=[
     {
         "id": "skill-12",
         "name": "Responsive",
-        "image": "../assets/images/Skills/nodelogo.png",
+        "image": "../assets/images/Skills/responsivelogo.png",
         "nivel": "Advanced"
+    },
+    {
+        "id": "skill-13",
+        "name": "English",
+        "image": "../assets/images/Skills/englishlogo.png",
+        "nivel": "Senior 6 "
     }
 
 
@@ -93,30 +99,27 @@ const softSkills=[
     "id":"3",
     "name":"Comunication",
     "image":"../assets/images/SoftSkills/Comunication.png"
+},
+{
+    "id":"4",
+    "name":"Responsibility",
+    "image":"../assets/images/SoftSkills/Resonsibility.png"
+},
+{
+    "id":"5",
+    "name":"Flexibility",
+    "image":"../assets/images/SoftSkills/Flexibility.png"
+},
+{
+    "id":"6",
+    "name":"Decisiveness",
+    "image":"../assets/images/SoftSkills/Decisiveness.png"
 }
 
 
 ]
 
-const softSkills2=[
- {
-     "id":"4",
-     "name":"Responsibility",
-     "image":"../assets/images/SoftSkills/Resonsibility.png"
- },
- {
-     "id":"5",
-     "name":"Flexibility",
-     "image":"../assets/images/SoftSkills/Flexibility.png"
- },
- {
-     "id":"6",
-     "name":"Decisiveness",
-     "image":"../assets/images/SoftSkills/Decisiveness.png"
- }
 
-    
-]
 
 const proyects=[
 {
@@ -180,7 +183,7 @@ const proyects=[
 /*=================CONTAINERS=================*/
 let skillContainer = document.querySelector("#skills-container");
 let softSkillsContainer = document.querySelector("#soft-skills-container");
-let softSkillsContainer2=document.querySelector("#soft-skills-container-2");
+
 let proyectsContainer=document.querySelector("#proyectContainer");
 
 
@@ -191,10 +194,13 @@ skills.forEach((s)=>{
     const{name,image,nivel}=s
     if(skillContainer){
         skillContainer.innerHTML+=`
-        <div class="mx-5 mt-5 skill-card">
-        <img class="png-skill" src="${image}" alt="${name}">
-        <h4 class="name-skill mt-2">${name}</h4>
-        <small class="nivel-skill">${nivel}</small>
+        <div class="mx-5 mt-5 skill-card d-flex flex-column">
+        <div class="skill-card-body d-flex flex-row">
+        <img class="png-skill mx-3" src="${image}" alt="${name}">
+        <h4 class="name-skill mt-2 ">${name}</h4>
+        </div>
+        <small class="nivel-skill ">${nivel}</small>
+        
         </div>`;
         
     }
@@ -204,9 +210,9 @@ skills.forEach((s)=>{
 
 softSkills.forEach((sf)=>{
     const{name,image}=sf
-    if(softSkillsContainer2){
-        softSkillsContainer2.innerHTML+=`
-        <div class="soft-skill-card mt-5 d-flex flex-row justify-content-center">
+    if(softSkillsContainer){
+        softSkillsContainer.innerHTML+=`
+        <div class="soft-skill-card mt-5  mx-3 d-flex flex-row justify-content-center ">
         <img class="soft-skill-img" src="${image}" alt="${name}" >
         <h4 class="soft-skill-name d-flex flex-column justify-content-center ">${name}</h4>
         </div>
@@ -215,17 +221,7 @@ softSkills.forEach((sf)=>{
 });
 
 
-softSkills2.forEach((sf)=>{
-    const{name,image}=sf
-    if(softSkillsContainer){
-        softSkillsContainer.innerHTML+=`
-        <div class="soft-skill-card mt-5 d-flex flex-row justify-content-center">
-        <img class="soft-skill-img" src="${image}" alt="${name}" >
-        <h4 class="soft-skill-name d-flex flex-column justify-content-center">${name}</h4>
-        </div>
-         `
-    }
-});
+
 
 
 /*=================LOAD PROYECTS=================*/

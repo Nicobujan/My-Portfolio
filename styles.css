@@ -7,6 +7,7 @@
     --background-color:#F5F5F5;
     --leter-color:#3d535f;
     --cards-color:#f1f1f1;
+    --green-color:#2ec586;
 
 }
 
@@ -33,7 +34,7 @@ header{
 
 .navbar{
     background: var(--header-color);
-    border-bottom: 1px solid var(--background-color);
+    
     
 
 }
@@ -69,11 +70,16 @@ header{
 
 
 /*==============HOME==============*/
-.about-container{
+.home-container{
     background: var(--background-color);
     height:100vh ;
     
 }
+
+.layer3{
+    background-image: url('./assets/images/body/layered-waves-first.svg');
+}
+
 
 .topline{
     display: block;
@@ -229,7 +235,7 @@ color: var(--leter-color);
   .mouse {
     width: 25px;
     height: 40px;
-    border: 2px solid #732FF9;
+    border: 2px solid var(--header-color);
     border-radius: 60px;
     position: relative;
     overflow: hidden;
@@ -246,7 +252,7 @@ color: var(--leter-color);
     top: 7px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #732FF9;
+    background-color: var(--header-color);
     border-radius: 50%;
     opacity: 1;
     animation: wheel 1.3s infinite;
@@ -257,8 +263,19 @@ color: var(--leter-color);
 
 
 /*========================ABOUT ME SECTION========================*/
-.about-me-container{
+.layer2{
+    background-image: url('./assets/images/body/layered-waves-first.svg');
+}
+
+#hrAboutMe{
     background: var(--background-color);
+    color: var(--background-color);
+    background-color: #0A66C2;
+}
+
+.about-me-container{
+    /* background: var(--background-color); */
+    height: 100vh;
 }
 
 
@@ -270,14 +287,15 @@ color: var(--leter-color);
 
 .title-soft-skills{
     color: var(--leter-color);
+    
 }
 
 
 .soft-skill-card{
-    background:rgb(238, 238, 238);
-    border: 2px solid var(--header-color);
-    border-radius: 6px;
-    box-shadow:-2px 4px 0 slateblue;
+    width:360px ;
+    height:60px ;
+    background:#ffffff;
+    box-shadow: 0px 0px 15px 7px #3dffae ;
     transition: .4s;
 }
 
@@ -287,8 +305,10 @@ color: var(--leter-color);
 }
 
 .soft-skill-name{
+    font-weight: bold;
+    color: var(--leter-color);
   margin-left: 25px;
-
+    font-size: 17px;
 }
 
 
@@ -338,9 +358,9 @@ color: var(--leter-color);
 
 .separator {
     border: 0; 
-    height: 2px; 
+   height: 2px; 
     margin-top: 20px;
-    background-color: #2ec586;
+    background-color: var(--green-color);
 
 }
 
@@ -370,7 +390,7 @@ color: var(--leter-color);
 }
 
 .buttons-proyect .button-repository{
-    background:#2ec586 ;
+    background:var(--green-color) ;
     color: white;
 }
 .buttons-proyect .button-view{
@@ -382,6 +402,125 @@ color: var(--leter-color);
 
 
 
+.spacer{
+    aspect-ratio:960/300 ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url('./assets/images/body/layered-waves-second.svg');
+}
+
+
+
+
+
+
+
+
+
+/*========================SKILLS SECTION========================*/
+
+.skills-section{
+    background: var(--green-color);
+}
+.title-skills{
+    color: var(--header-color);
+}
+
+
+
+.skill-card{
+    width: 210px;
+    height:110px;
+    background-color:#8bf8cb ;
+    border-radius: 7px;
+    box-shadow: 0px 0px 25px 10px #50f5b0;
+    transition: .7s;
+}
+
+
+.skill-card-body{
+padding: 15px;
+
+}
+
+.png-skill{
+    width: 50px;
+    height: 50px;
+   
+
+}
+
+.name-skill{
+    font-size: 19px;
+   font-weight: bold;
+   color: var(--leter-color);
+
+}
+
+.nicel-skill{
+    font-size: 15px;
+    color: var(--leter-color);
+    font-weight: bold;
+}
+
+.skill-card:hover .png-skill{
+    animation: rotate 1s linear infinite;
+    
+}
+.skill-card:hover{
+   translate: 10px;
+}
+
+
+
+/*========================SKILLS SECTION========================*/
+
+
+
+/*========================STUDIES SECTION========================*/
+
+
+
+.layer4{
+    background-image: url('./assets/images/body/layered-waves-studies.svg');
+}
+
+.carousel{
+    padding: 35px;
+    
+    background-color: #a074f7;
+    border-radius: 7px;
+}
+
+#button-hireMe{
+    background: var(--header-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
 
 
 
@@ -425,3 +564,13 @@ color: var(--leter-color);
     }
 
 }
+
+@media(max-width:576px){
+    .proyect-section{
+        padding-top: 500px;
+    }
+
+
+}
+
+
