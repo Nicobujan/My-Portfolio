@@ -126,8 +126,8 @@ const proyects=[
     "id":"1",
     "img":"../assets/images/Proyects/portfolio.jfif",
     "name":"My Portfolio",
-    "description":"asnfjsanfjasfasf",
-    "technology":"asfsafsaf, fasfas fa, fasfsa f, asfasfsa f",
+    "description":" Web developer Nicolas Bujan portfolio",
+    "technology":"HTML, CSS, JavaScript, Bootstrap",
     "view":"",
     "repository":"",
 },
@@ -230,16 +230,34 @@ proyects.forEach((p)=>{
 const{name,img,description,technology,view,repository}=p
 if(proyectContainer){
     proyectsContainer.innerHTML+=`
-<div class="card mx-5 mb-5" style="width: 30rem;">
+<div class="card mx-5 mb-5 border-0 "  style="width: 30rem;">
+    <div class="card-img-top-container">
     <img src="${img}" class="card-img-top" alt="Proyect">
+    </div>
     <div class="card-body">
-        <h5>${name}</h5>
-        <p class="card-text">${technology}</p>
-        <span>${description}</span>
+        <h5 id="title-card">${name}</h5>
+        <p class="card-technology">${technology}</p>
+        <span class="card-text">${description}</span>
 
             <div class="buttons-proyect d-flex flex-row justify-content-between mt-3">
-                <a class="btn button-view" role="button" src="${view}">View<i class=" mx-2 fa-regular fa-eye"></i> </a>
-                <a class="btn button-repository" role="button" src="${repository}">Repository<i class="mx-2 fa-brands fa-github"></i> </a>
+
+                <button class="button-view">
+                    <div class="sign">
+                    <i class=" mx-2 fa-regular fa-eye"></i>
+                    </div>
+                    <a class="word-view" target="__blank" href="${view}">View</a>
+                </button>
+
+                <button class="button-repository">
+                    <div class="sign2">
+                    <i class="fa-brands fa-github"></i>
+                    </div>
+                    <a class="word-repository" target="__blank" href="${repository}">Repository</a>
+                </button>
+
+
+
+                    
             </div>
     </div>
 </div>
