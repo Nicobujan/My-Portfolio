@@ -194,7 +194,7 @@ skills.forEach((s)=>{
     const{name,image,nivel}=s
     if(skillContainer){
         skillContainer.innerHTML+=`
-        <div class="mx-5 mt-5 skill-card d-flex flex-column">
+        <div class="mx-5 mt-5 skill-card d-flex flex-column"  >
         <div class="skill-card-body d-flex flex-row">
         <img class="png-skill mx-3" src="${image}" alt="${name}">
         <h4 class="name-skill mt-2 ">${name}</h4>
@@ -230,7 +230,7 @@ proyects.forEach((p)=>{
 const{name,img,description,technology,view,repository}=p
 if(proyectContainer){
     proyectsContainer.innerHTML+=`
-<div class="card mx-5 mb-5 border-0 "  style="width: 30rem;">
+<div class="card mx-5 mb-5 border-0 "  style="width: 30rem;" data-aos="zoom-in" data-aos-duration="1500">
     <div class="card-img-top-container">
     <img src="${img}" class="card-img-top" alt="Proyect">
     </div>
@@ -266,3 +266,27 @@ if(proyectContainer){
 }
 
 });
+
+
+
+/*=================BUTTON DOWNLOAD=================*/
+
+const buttonDownload = document.getElementById('button-download');
+
+
+buttonDownload.addEventListener('click', ()=>{
+
+const link = document.createElement('a');
+link.href='../assets/toDownload/Curriculum-Vitae.pdf';
+link.download='Curriculum-Vitae/Personal-Resume';
+link.target='_blank';
+link.style.display='none';
+
+document.body.appendChild(link);
+link.click();
+document.body.removeChild(link);
+
+});
+
+
+

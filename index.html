@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <script
       src="https://kit.fontawesome.com/8717d7d0cc.js"
       crossorigin="anonymous"
@@ -18,9 +20,6 @@
   </head>
 
   <body>
-
-
-
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -31,7 +30,7 @@
           </div>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler btn btn-outline-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -68,7 +67,6 @@
       </nav>
     </header>
 
-  
     <section class="home-container row pt-5 mx-0" id="about">
       <div
         class="col-md-6 d-flex flex-column justify-content-center align-items-center pt-3"
@@ -91,7 +89,12 @@
             <button id="button-download">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
-                  <i class="fa-solid fa-download"></i>
+                  <i class="fa-solid fa-download"
+                    ><a
+                      href="./assets/toDownload/Curriculum-Vitae.pdf"
+                      download="CV/PR"
+                    ></a
+                  ></i>
                 </div>
               </div>
               <span>CV/PR</span>
@@ -156,18 +159,28 @@
 
     <div id="hrAbout"></div>
     <section class="about-me-container text-center">
-      <h2 class="pt-5" id="aboutMe">< AboutMe /></h2>
+      <h2 class="pt-5" id="aboutMe" data-aos="fade-up" data-aos-duration="1200">
+        < AboutMe />
+      </h2>
       <div class="row mx-0">
         <div class="col-sm-6 mt-4">
-          <h3 class="title-soft-skills">< SoftSkills /></h3>
+          <h3
+            class="title-soft-skills"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            < SoftSkills />
+          </h3>
 
           <section
             class="d-flex flex-row flex-wrap text-left second-section-sf"
+            data-aos="fade-up"
+            data-aos-duration="1200"
             id="soft-skills-container"
           ></section>
         </div>
 
-        <div class="col-sm-6 mt-5">
+        <div class="col-sm-6 mt-5" id="about-me-text" data-aos="fade-up" data-aos-duration="1200">
           <p class="subtitles mt-5 mb-0">Subtitle</p>
           <p class="personal-info">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia
@@ -203,7 +216,10 @@
       <div class="row mx-0">
         <div class="col-sm-12">
           <h2
-            class="title-proyects d-flex flex-row justify-content-center mt-5"
+            class="d-flex flex-row justify-content-center mt-5"
+            id="title-proyects"
+            data-aos="fade-up"
+            data-aos-duration="1200"
           >
             < MyProyects />
           </h2>
@@ -216,14 +232,19 @@
       </div>
     </section>
 
-
     <div id="hrSkills"></div>
     <section class="skills-section text-center pb-5 pt-5" id="skills">
-      <h2 class="title-skills ">< Skills /></h2>
+      <h2 id="title-skills" data-aos="fade-up" data-aos-duration="1200">
+        < Skills />
+      </h2>
       <div class="row mx-0">
         <div class="col-sm-6">
           <div class="row">
-            <div class="col-sm-6 d-flex flex-column pt-5">
+            <div
+              class="col-sm-6 d-flex flex-column pt-5"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
               <h3 class="subtitle-skills">Title</h3>
               <span class="text-skill"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -233,7 +254,11 @@
                 provident. Praesentium?</span
               >
             </div>
-            <div class="col-sm-6 d-flex flex-column pt-5">
+            <div
+              class="col-sm-6 d-flex flex-column pt-5"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
               <h3 class="subtitle-skills">Title</h3>
               <span class="text-skill"
                 >Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -244,20 +269,25 @@
               >
             </div>
           </div>
-          <a href="#hrStudies" class="btn" id="button-studies" role="button">
-             Contact <i class="fa-solid fa-arrow-right"></i></a
+          <a
+            href="#hrContact"
+            class="btn"
+            id="button-studies"
+            role="button"
+            data-aos="zoom-out-right"
+            data-aos-duration="2500"
           >
+            Contact <i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
         <div
           class="col-sm-6 section-skill d-flex flex-row justify-content-center flex-wrap"
-          id="skills-container">
-
-
-        ></div>
-        
-        
-
-
+          id="skills-container"
+          data-aos="zoom-in"
+          data-aos-duration="2500"
+        >
+          >
+        </div>
       </div>
     </section>
 
@@ -266,106 +296,137 @@
       class="studies-section pt-5 d-flex flex-row flex-wrap justify-content-center"
       id="studies"
     >
-      <h2 class="title-studies">< Studies /></h2>
-      <div class="d-flex flex-row justify-content-center flex-wrap mt-5 mx-5 pb-5 " >
+      <h2 id="title-studies" data-aos="fade-up" data-aos-duration="1200">
+        < Studies />
+      </h2>
+      <div
+        class="section-img-studies d-flex flex-row justify-content-center flex-wrap mt-5 mx-5 pb-5"
+      >
+        <div
+          class="studies-img-container mx-5 mb-5"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          <img
+            class="img-studies mb-5"
+            src="./assets/images/Studies/DESARROLLO WEB.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="studies-img-container"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          <img
+            class="img-studies mb-5"
+            src="./assets/images/Studies/FRONT-END REACT.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="studies-img-container mx-5"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          <img
+            class="img-studies mb-5"
+            src="./assets/images/Studies/REACT.png"
+            alt=""
+          />
+        </div>
 
-      
-
-        <div class="studies-img-container mx-5 mb-5 "> <img
-          class="img-studies mb-5  "
-          src="./assets/images/Studies/DESARROLLO WEB.png"
-          alt=""
-        /></div>
-        <div class="studies-img-container"><img
-          class="img-studies mb-5"
-          src="./assets/images/Studies/FRONT-END REACT.png"
-          alt=""
-        /></div>
-        <div class="studies-img-container mx-5"><img
-          class="img-studies mb-5 "
-          src="./assets/images/Studies/REACT.png"
-          alt=""
-        /></div>
-
-        <div class="studies-img-container"><img
-          class="img-studies mb-5"
-          src="./assets/images/Studies/JAVASCRIPT.png"
-          alt=""
-        /> </div>
+        <div
+          class="studies-img-container"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          <img
+            class="img-studies mb-5"
+            src="./assets/images/Studies/JAVASCRIPT.png"
+            alt=""
+          />
+        </div>
       </div>
     </section>
 
-
     <div id="hrContact"></div>
+    <section class="contact-section pb-5 pt-5 text-center">
+      <div class="container">
+        <div class="row mx-0">
+          <div
+            class="col-sm-12 d-flex flex-column justify-content-center text-center align-items-center"
+          >
+            <h2 class="title-contact">Contact Me!</h2>
+            <span class="text-contact pt-5 pb-5"
+              >Get in touch or shoot me an email directly on
+              <p class="gmail-contact">nicolasbujan@gmail.com</p></span
+            >
 
-    <section class="contact-section pb-5 pt-5 text-center ">
-<div class="container ">
-  <div class="row mx-0">
-    <div class="col-sm-12 d-flex flex-column justify-content-center text-center align-items-center ">
-      <h2 class="title-contact">Contact Me!</h2>
-      <span class="text-contact pt-5 pb-5">Get in touch or shoot me an email directly on <p class="gmail-contact">nicolasbujan@gmail.com</p></span>
-      
-        <form action="https://formsubmit.co/nicolasbujan@gmail.com" method="POST" class="d-flex flex-column align-items-center">
+            <form
+              action="https://formsubmit.co/nicolasbujan@gmail.com"
+              method="POST"
+              class="d-flex flex-column align-items-center form-container"
+            >
+              <div class="d-flex flex-row">
+                <div class="form__group field mx-5">
+                  <input
+                    type="input"
+                    class="form__field"
+                    placeholder="Name"
+                    name="Name"
+                    required=""
+                  />
+                  <label for="name" class="form__label">Name</label>
+                </div>
+                <div class="form__group field">
+                  <input
+                    type="input"
+                    class="form__field"
+                    placeholder="Name"
+                    name="Surname"
+                    required=""
+                  />
+                  <label for="name" class="form__label">Surname</label>
+                </div>
+              </div>
 
+              <div class="form__group field email-group">
+                <input
+                  type="email"
+                  class="form__field pt-5"
+                  placeholder="Email"
+                  name="Gmail"
+                  required=""
+                />
+                <label for="name" class="form__label pt-5">Email</label>
+              </div>
 
-          <div class="d-flex flex-row ">
-            <div class="form__group field mx-5">
-              <input type="input" class="form__field " placeholder="Name" name="Name" required="">
-              <label for="name" class="form__label">Name</label>
-            </div>
-            <div class="form__group field">
-              <input type="input" class="form__field" placeholder="Name" name="Surname" required="">
-              <label for="name" class="form__label">Surname</label>
-            </div>
+              <div
+                class="form__group field div-text-area d-flex flex-column align-items-center"
+              >
+                <label for="comments" class="pb-3 text-comment"
+                  >Tell me something!</label
+                >
+                <textarea
+                placeholder="Write here..."
+                  name="Comments"
+                  id="text-area"
+                  cols="50"
+                  rows="10"
+                  required=""
+                ></textarea>
+              </div>
+
+              <div class="pt-5">
+                <input type="submit" id="send-button" value="enviar" />
+                <i class="fa-regular fa-paper-plane"></i>
+              </div>
+            </form>
           </div>
-
-
-
-
-
-          <div class="form__group field email-group ">
-            <input type="email" class="form__field  pt-5" placeholder="Email" name="Gmail" required="">
-            <label for="name" class="form__label pt-5">Email</label>
-          </div>
-
-          
-          <div class="form__group field div-text-area d-flex flex-column align-items-center ">
-            <label for="comments" class="pb-3 text-comment ">Tell me something!</label>
-            <textarea name="Comments" id="text-area" cols="50" rows="10" required=""></textarea>
-          </div>
-          
-          
-          <div class="pt-5">
-            <input type="submit" id="send-button" value="enviar">
-            <i class="fa-regular fa-paper-plane"></i>
-          </div>
-
-
-        </form>  
-      
-
-
-
-
-   
-    </div>
-  </div>
-</div>
+        </div>
+      </div>
     </section>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -391,6 +452,10 @@
         $(" ul li a.active").removeClass("active");
         $(this).addClass("active");
       });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
     <script src="./JavaScript/index.js"></script>

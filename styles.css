@@ -2,7 +2,7 @@
 
 
 :root{
-    --header-color:#8bf8cb ;
+    --header-color:#3dffae ;
     --text-color:#fff;
     --background-color:#2C2D32;
     --background-color2:#323338;
@@ -44,6 +44,9 @@ header{
     color: var(--background-color2);
     font-family:'Libre Baskerville', serif; ;
 }
+
+
+
 .navbar-nav li{
     margin-left: 15px;
 }
@@ -455,14 +458,14 @@ color: var(--leter-color);
     background: var(--background-color);
 }
 
-.title-proyects{
+#title-proyects{
     display: inline-block;
     color: var(--header-color);
     letter-spacing: 5px;
     transition: .3s;
 }
 
-.title-proyects:hover{
+#title-proyects:hover{
     letter-spacing: normal;
 }
 
@@ -669,14 +672,14 @@ color: var(--leter-color);
 .skills-section{
     background: var(--background-color2);
 }
-.title-skills{
+#title-skills{
     display: inline-block;
     color: var(--header-color);
     letter-spacing: 5px;
     transition: .3s;
 }
 
-.title-skills:hover{
+#title-skills:hover{
     letter-spacing: normal;
 }
 
@@ -799,14 +802,14 @@ padding: 15px;
     background: var(--background-color);
 }
 
-.title-studies{
+#title-studies{
     color: var(--header-color);
     letter-spacing: 5px;
     transition: .3s;
 
 }
 
-.title-studies:hover{
+#title-studies:hover{
 letter-spacing: normal;
 
 }
@@ -860,6 +863,15 @@ letter-spacing: normal;
 .gmail-contact{
     color: var(--header-color);
 }
+
+.form-container{
+    background: var(--background-color);
+    width: 750px;
+    height: 620px;
+    border-radius: 8px;
+}
+
+
 
 .text-comment{
     color: white;
@@ -994,7 +1006,7 @@ letter-spacing: normal;
 
 
 
-
+/*========================KEYFRAMES========================*/
 @keyframes rotate {
     0% {
       transform: rotateY(0deg);
@@ -1022,25 +1034,13 @@ letter-spacing: normal;
     }
 }
 
-@keyframes shine{
-    100%{
-        left: 125%;
-    }
-}
 
 
+/*========================KEYFRAMES========================*/
 
-@-webkit-keyframes shine{
-    100%{
-       left: 125%; 
-    }
-}
+/*========================MEDIAQUERYS========================*/
 
-
-
-
-
-@media(max-width:992px){
+@media screen and (max-width:992px){
     .nav-item{
         margin-top: 5px;
     }
@@ -1061,11 +1061,72 @@ letter-spacing: normal;
 
 }
 
-@media(max-width:576px){
-    .proyect-section{
-        padding-top: 500px;
+@media screen and (max-width:767px){
+    .img-home{
+        display: none
+    }
+    .text-skill{
+        text-align: start;
+    }
+    .studies-img-container{
+        width:600px ;
+    }
+    .img-studies{
+        width: 600px;
     }
 
+}
+
+
+
+@media screen and (max-width:576px){
+
+    .proyect-section{
+        padding-top: 200px;
+    }
+
+    .studies-img-container{
+        width:450px ;
+    }
+    .img-studies{
+        width: 450px;
+    }
+    .form-container{
+        width: 470px;
+    }
+    #text-area{
+        width: 440px;
+    }
+
+
+}
+
+@media screen and (max-width:393px){
+
+.proyect-section{
+    padding-top: 700px;
+}
+
+.section-img-studies{ 
+    width: 365px;
+    
+}
+
+.studies-img-container{
+    width: 350px;
+}
+
+.img-studies{
+    width: 350px;
+}
+
+.form-container{
+    width: 365px;
+}
+
+#text-area{
+    width: 340px;
+}
 
 }
 
@@ -1073,6 +1134,18 @@ letter-spacing: normal;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*========================MEDIAQUERYS========================*/
 
 
 
