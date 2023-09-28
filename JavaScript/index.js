@@ -3,80 +3,80 @@ const skills=[
     {
         id: "skill-1",
         name: "ReactJS",
-        image: "../assets/images/Skills/react-logo.png",
+        image: "../images/react-logo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-2",
         name: "JavaScript",
-        image: "../assets/images/Skills/js-logo.png",
+        image: "../images/js-logo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-3",
         name: "HTML",
-        image: "../assets/images/Skills/html.png",
+        image: "../images/html.png",
         nivel: "Advanced"
     },
     {
         id: "skill-4",
         name: "CSS",
-        image: "../assets/images/Skills/csslogo.png",
+        image: "../images/csslogo.png",
         nivel: "Advanced"
     },
     {
         id: "skill-5",
         name: "SASS",
-        image: "../assets/images/Skills/sasslogo.png",
+        image: "../images/sasslogo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-6",
         name: "Bootstrap",
-        image: "../../assets/images/skills/bootstrap_logo.png",
+        image: "../images/bootstrap_logo.png",
         nivel: "Advanced"
     },
     {
         id: "skill-7",
         name: "GitHub",
-        image: "../../assets/images/skills/github-logo.png",
+        image: "../images/github-logo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-8",
         name: "Git",
-        image: "../assets/images/Skills/gitlogo.png",
+        image: "../images/gitlogo.png",
         nivel: "Intermediate"
 
     },
     {
         id: "skill-9",
         name: "FireBase",
-        image: "../assets/images/Skills/firebaselogo.png",
+        image: "../images/firebaselogo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-10",
         name: "NextJS",
-        image: "../assets/images/Skills/nextjslogo.png",
+        image: "../images/nextjslogo.png",
         nivel: "Intermediate"
     },
     {
         id: "skill-11",
         name: "NodeJS",
-        image: "../assets/images/Skills/nodelogo.png",
+        image: "../images/nodelogo.png",
         "nivel": "Intermediate"
     },
     {
         id: "skill-12",
         name: "Responsive",
-        image: "../assets/images/Skills/responsivelogo.png",
+        image: "../images/responsivelogo.png",
         nivel: "Advanced"
     },
     {
         id: "skill-13",
         name: "English",
-        image: "../assets/images/Skills/englishlogo.png",
+        image: "../images/englishlogo.png",
         nivel: "Senior 6 "
     }
 
@@ -88,32 +88,32 @@ const softSkills=[
 {
     id:"1",
     name:"Problem solving",
-    image:"../assets/images/SoftSkills/problemsolving.png"
+    image:"../images/problemsolving.png"
 },
 {
     id:"2",
     name:"Teamwork",
-    image:"../assets/images/SoftSkills/Teamwork.png"
+    image:"../images/Teamwork.png"
 },
 {
     id:"3",
     name:"Comunication",
-    image:"../assets/images/SoftSkills/Comunication.png"
+    image:"../images/Comunication.png"
 },
 {
     id:"4",
     name:"Responsibility",
-    image:"../assets/images/SoftSkills/Resonsibility.png"
+    image:"../images/Resonsibility.png"
 },
 {
     id:"5",
     name:"Flexibility",
-    image:"../assets/images/SoftSkills/Flexibility.png"
+    image:"../images/Flexibility.png"
 },
 {
     id:"6",
     name:"Decisiveness",
-    image:"../assets/images/SoftSkills/Decisiveness.png"
+    image:"../images/Decisiveness.png"
 }
 
 
@@ -124,7 +124,7 @@ const softSkills=[
 const proyects=[
 {
     id:"1",
-    img:"../assets/images/Proyects/portfolio.jfif",
+    img:"../images/Proyect1.jfif",
     name:"My Portfolio",
     description:" Web developer Nicolas Bujan portfolio",
     technology:"HTML, CSS, JavaScript, Bootstrap",
@@ -133,7 +133,7 @@ const proyects=[
 },
 {
     id:"2",
-    img:"../assets/images/Proyects/portfolio.jfif",
+    img:"../images/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -142,7 +142,7 @@ const proyects=[
 },
 {
     id:"3",
-    img:"../assets/images/Proyects/portfolio.jfif",
+    img:"../images/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -151,7 +151,7 @@ const proyects=[
 },
 {
     id:"4",
-    img:"../assets/images/Proyects/portfolio.jfif",
+    img:"../images/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -160,7 +160,7 @@ const proyects=[
 },
 {
     id:"5",
-    img:"../assets/images/Proyects/portfolio.jfif",
+    img:"../images/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
