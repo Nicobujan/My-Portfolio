@@ -1,83 +1,83 @@
 /*=================ARRAYS=================*/
 const skills=[
     {
-        "id": "skill-1",
-        "name": "ReactJS",
-        "image": "../assets/images/Skills/react-logo.png",
-        "nivel": "Intermediate"
+        id: "skill-1",
+        name: "ReactJS",
+        image: "../assets/images/Skills/react-logo.png",
+        nivel: "Intermediate"
     },
     {
-        "id": "skill-2",
-        "name": "JavaScript",
-        "image": "../assets/images/Skills/js-logo.png",
-        "nivel": "Intermediate"
+        id: "skill-2",
+        name: "JavaScript",
+        image: "../assets/images/Skills/js-logo.png",
+        nivel: "Intermediate"
     },
     {
-        "id": "skill-3",
-        "name": "HTML",
-        "image": "../assets/images/Skills/html.png",
-        "nivel": "Advanced"
+        id: "skill-3",
+        name: "HTML",
+        image: "../assets/images/Skills/html.png",
+        nivel: "Advanced"
     },
     {
-        "id": "skill-4",
-        "name": "CSS",
-        "image": "../assets/images/Skills/csslogo.png",
-        "nivel": "Advanced"
+        id: "skill-4",
+        name: "CSS",
+        image: "../assets/images/Skills/csslogo.png",
+        nivel: "Advanced"
     },
     {
-        "id": "skill-5",
-        "name": "SASS",
-        "image": "../assets/images/Skills/sasslogo.png",
-        "nivel": "Intermediate"
+        id: "skill-5",
+        name: "SASS",
+        image: "../assets/images/Skills/sasslogo.png",
+        nivel: "Intermediate"
     },
     {
-        "id": "skill-6",
-        "name": "Bootstrap",
-        "image": "../../assets/images/skills/bootstrap_logo.png",
-        "nivel": "Advanced"
+        id: "skill-6",
+        name: "Bootstrap",
+        image: "../../assets/images/skills/bootstrap_logo.png",
+        nivel: "Advanced"
     },
     {
-        "id": "skill-7",
-        "name": "GitHub",
-        "image": "../../assets/images/skills/github-logo.png",
-        "nivel": "Intermediate"
+        id: "skill-7",
+        name: "GitHub",
+        image: "../../assets/images/skills/github-logo.png",
+        nivel: "Intermediate"
     },
     {
-        "id": "skill-8",
-        "name": "Git",
-        "image": "../assets/images/Skills/gitlogo.png",
-        "nivel": "Intermediate"
+        id: "skill-8",
+        name: "Git",
+        image: "../assets/images/Skills/gitlogo.png",
+        nivel: "Intermediate"
 
     },
     {
-        "id": "skill-9",
-        "name": "FireBase",
-        "image": "../assets/images/Skills/firebaselogo.png",
+        id: "skill-9",
+        name: "FireBase",
+        image: "../assets/images/Skills/firebaselogo.png",
+        nivel: "Intermediate"
+    },
+    {
+        id: "skill-10",
+        name: "NextJS",
+        image: "../assets/images/Skills/nextjslogo.png",
+        nivel: "Intermediate"
+    },
+    {
+        id: "skill-11",
+        name: "NodeJS",
+        image: "../assets/images/Skills/nodelogo.png",
         "nivel": "Intermediate"
     },
     {
-        "id": "skill-10",
-        "name": "NextJS",
-        "image": "../assets/images/Skills/nextjslogo.png",
-        "nivel": "Intermediate"
+        id: "skill-12",
+        name: "Responsive",
+        image: "../assets/images/Skills/responsivelogo.png",
+        nivel: "Advanced"
     },
     {
-        "id": "skill-11",
-        "name": "NodeJS",
-        "image": "../assets/images/Skills/nodelogo.png",
-        "nivel": "Intermediate"
-    },
-    {
-        "id": "skill-12",
-        "name": "Responsive",
-        "image": "../assets/images/Skills/responsivelogo.png",
-        "nivel": "Advanced"
-    },
-    {
-        "id": "skill-13",
-        "name": "English",
-        "image": "../assets/images/Skills/englishlogo.png",
-        "nivel": "Senior 6 "
+        id: "skill-13",
+        name: "English",
+        image: "../assets/images/Skills/englishlogo.png",
+        nivel: "Senior 6 "
     }
 
 
@@ -86,34 +86,34 @@ const skills=[
 const softSkills=[
 
 {
-    "id":"1",
-    "name":"Problem solving",
-    "image":"../assets/images/SoftSkills/problemsolving.png"
+    id:"1",
+    name:"Problem solving",
+    image:"../assets/images/SoftSkills/problemsolving.png"
 },
 {
-    "id":"2",
-    "name":"Teamwork",
-    "image":"../assets/images/SoftSkills/Teamwork.png"
+    id:"2",
+    name:"Teamwork",
+    image:"../assets/images/SoftSkills/Teamwork.png"
 },
 {
-    "id":"3",
-    "name":"Comunication",
-    "image":"../assets/images/SoftSkills/Comunication.png"
+    id:"3",
+    name:"Comunication",
+    image:"../assets/images/SoftSkills/Comunication.png"
 },
 {
-    "id":"4",
-    "name":"Responsibility",
-    "image":"../assets/images/SoftSkills/Resonsibility.png"
+    id:"4",
+    name:"Responsibility",
+    image:"../assets/images/SoftSkills/Resonsibility.png"
 },
 {
-    "id":"5",
-    "name":"Flexibility",
-    "image":"../assets/images/SoftSkills/Flexibility.png"
+    id:"5",
+    name:"Flexibility",
+    image:"../assets/images/SoftSkills/Flexibility.png"
 },
 {
-    "id":"6",
-    "name":"Decisiveness",
-    "image":"../assets/images/SoftSkills/Decisiveness.png"
+    id:"6",
+    name:"Decisiveness",
+    image:"../assets/images/SoftSkills/Decisiveness.png"
 }
 
 
@@ -123,49 +123,49 @@ const softSkills=[
 
 const proyects=[
 {
-    "id":"1",
-    "img":"../assets/images/Proyects/portfolio.jfif",
-    "name":"My Portfolio",
-    "description":" Web developer Nicolas Bujan portfolio",
-    "technology":"HTML, CSS, JavaScript, Bootstrap",
-    "view":"",
-    "repository":"",
+    id:"1",
+    img:"../assets/images/Proyects/portfolio.jfif",
+    name:"My Portfolio",
+    description:" Web developer Nicolas Bujan portfolio",
+    technology:"HTML, CSS, JavaScript, Bootstrap",
+    view:"",
+    repository:"",
 },
 {
-    "id":"2",
-    "img":"../assets/images/Proyects/portfolio.jfif",
-    "name":"My Portfolio",
-    "description":"",
-    "technology":"",
-    "view":"",
-    "repository":"",
+    id:"2",
+    img:"../assets/images/Proyects/portfolio.jfif",
+    name:"My Portfolio",
+    description:"",
+    technology:"",
+    view:"",
+    repository:"",
 },
 {
-    "id":"3",
-    "img":"../assets/images/Proyects/portfolio.jfif",
-    "name":"My Portfolio",
-    "description":"",
-    "technology":"",
-    "view":"",
-    "repository":"",
+    id:"3",
+    img:"../assets/images/Proyects/portfolio.jfif",
+    name:"My Portfolio",
+    description:"",
+    technology:"",
+    view:"",
+    repository:"",
 },
 {
-    "id":"4",
-    "img":"../assets/images/Proyects/portfolio.jfif",
-    "name":"My Portfolio",
-    "description":"",
-    "technology":"",
-    "view":"",
-    "repository":"",
+    id:"4",
+    img:"../assets/images/Proyects/portfolio.jfif",
+    name:"My Portfolio",
+    description:"",
+    technology:"",
+    view:"",
+    repository:"",
 },
 {
-    "id":"5",
-    "img":"../assets/images/Proyects/portfolio.jfif",
-    "name":"My Portfolio",
-    "description":"",
-    "technology":"",
-    "view":"",
-    "repository":"",
+    id:"5",
+    img:"../assets/images/Proyects/portfolio.jfif",
+    name:"My Portfolio",
+    description:"",
+    technology:"",
+    view:"",
+    repository:"",
 },
 
 
