@@ -247,16 +247,14 @@ color: var(--leter-color);
     position: absolute;
 }
 
-#paint-home{
-    height: 650px;
+#avatar-home{
+    height: 620px;
+    transition:.4s ;
 }
 
-#nico-home{
-    height: 550px;
-    transition: .4s;
-}
 
-#nico-home:hover{
+
+#avatar-home:hover{
     scale: 1.2;
 }
 
@@ -1133,7 +1131,61 @@ letter-spacing: normal;
 
 
 
+@media screen and (max-width:270px){
 
+#aboutMe{
+    font-size: 25px;
+}    
+
+#title-proyects{
+    font-size: 18px;
+}
+
+.soft-skill-card{
+    width: 200px;
+
+}
+
+.soft-skill-name{
+font-size: 12px;
+margin-right: 20px;
+
+}
+
+.proyect-section{
+    padding-top: 950px;
+}
+
+.skill-card-body{
+    width: 209px;
+}
+
+.form-container{
+    width: 245px;
+}
+
+
+.studies-img-container{
+    width: 245px;
+}
+
+.img-studies{
+    width: 240px;
+    height: 240px;
+}
+
+
+
+
+.name-surname-container{
+    margin-right: 50px;
+}
+
+#text-area{
+    width: 240px;
+}
+
+}
 
 
 
