@@ -1135,7 +1135,26 @@ letter-spacing: normal;
 
 #aboutMe{
     font-size: 25px;
-}    
+} 
+
+ 
+    .list-networks{
+        width: 240px;
+    }
+
+    .list-networks li{
+        width: 50px;
+    }
+
+    .list-networks li a{
+        width:30px ;
+    }
+
+
+#skills-container{
+    max-width: 260px;
+}
+
 
 #title-proyects{
     font-size: 18px;
@@ -1152,12 +1171,23 @@ margin-right: 20px;
 
 }
 
+
+
+#text-area{
+    max-width: 230px;
+}
+
 .proyect-section{
     padding-top: 950px;
 }
 
 .skill-card-body{
-    width: 209px;
+    width: 200px;
+}
+
+
+.name-skill{
+    font-size: 15px;
 }
 
 .form-container{
@@ -1166,14 +1196,9 @@ margin-right: 20px;
 
 
 .studies-img-container{
-    width: 245px;
-}
+  display: none;
 
-.img-studies{
-    width: 240px;
-    height: 240px;
 }
-
 
 
 
@@ -1181,9 +1206,7 @@ margin-right: 20px;
     margin-right: 50px;
 }
 
-#text-area{
-    width: 240px;
-}
+
 
 }
 

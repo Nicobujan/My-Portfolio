@@ -1,82 +1,82 @@
 /*=================ARRAYS=================*/
 const skills=[
     {
-        id: "skill-1",
+        id: 1,
         name: "ReactJS",
-        image: "../images/react-logo.png",
+        image: "../public/imgArray/react-logo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-2",
+        id: 2,
         name: "JavaScript",
-        image: "../images/js-logo.png",
+        image: "../public/imgArray/js-logo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-3",
+        id: 3,
         name: "HTML",
-        image: "../images/html.png",
+        image: "../public/imgArray/html.png",
         nivel: "Advanced"
     },
     {
-        id: "skill-4",
+        id: 4,
         name: "CSS",
-        image: "../images/csslogo.png",
+        image: "../public/imgArray/csslogo.png",
         nivel: "Advanced"
     },
     {
-        id: "skill-5",
+        id: 5,
         name: "SASS",
-        image: "../images/sasslogo.png",
+        image: "../public/imgArray/sasslogo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-6",
+        id: 6,
         name: "Bootstrap",
-        image: "../images/bootstrap_logo.png",
+        image: "../public/imgArray/bootstrap_logo.png",
         nivel: "Advanced"
     },
     {
-        id: "skill-7",
+        id: 7,
         name: "GitHub",
-        image: "../images/github-logo.png",
+        image: "../public/imgArray/github-logo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-8",
+        id: 8,
         name: "Git",
-        image: "../images/gitlogo.png",
+        image: "../public/imgArray/gitlogo.png",
         nivel: "Intermediate"
 
     },
     {
-        id: "skill-9",
+        id: 9,
         name: "FireBase",
-        image: "../images/firebaselogo.png",
+        image: "../public/imgArray/firebaselogo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-10",
+        id: 10,
         name: "NextJS",
-        image: "../images/nextjslogo.png",
+        image: "../public/imgArray/nextjslogo.png",
         nivel: "Intermediate"
     },
     {
-        id: "skill-11",
+        id:11,
         name: "NodeJS",
-        image: "../images/nodelogo.png",
+        image: "../public/imgArray/nodelogo.png",
         "nivel": "Intermediate"
     },
     {
-        id: "skill-12",
+        id: 12,
         name: "Responsive",
-        image: "../images/responsivelogo.png",
+        image: "../public/imgArray/responsivelogo.png",
         nivel: "Advanced"
     },
     {
-        id: "skill-13",
+        id: 13,
         name: "English",
-        image: "../images/englishlogo.png",
+        image: "../public/imgArray/englishlogo.png",
         nivel: "Senior 6 "
     }
 
@@ -86,34 +86,34 @@ const skills=[
 const softSkills=[
 
 {
-    id:"1",
+    id:1,
     name:"Problem solving",
-    image:"../images/problemsolving.png"
+    image:"../public/imgArray/problemsolving.png"
 },
 {
-    id:"2",
+    id:2,
     name:"Teamwork",
-    image:"../images/Teamwork.png"
+    image:"../public/imgArray/Teamwork.png"
 },
 {
-    id:"3",
+    id:3,
     name:"Comunication",
-    image:"../images/Comunication.png"
+    image:"../public/imgArray/Comunication.png"
 },
 {
-    id:"4",
+    id:4,
     name:"Responsibility",
-    image:"../images/Resonsibility.png"
+    image:"../public/imgArray/Resonsibility.png"
 },
 {
-    id:"5",
+    id:5,
     name:"Flexibility",
-    image:"../images/Flexibility.png"
+    image:"../public/imgArray/Flexibility.png"
 },
 {
-    id:"6",
+    id:6,
     name:"Decisiveness",
-    image:"../images/Decisiveness.png"
+    image:"../public/imgArray/Decisiveness.png"
 }
 
 
@@ -123,8 +123,8 @@ const softSkills=[
 
 const proyects=[
 {
-    id:"1",
-    img:"../images/Proyect1.jfif",
+    id:1,
+    img:"../public/imgArray/Proyect1.jfif",
     name:"My Portfolio",
     description:" Web developer Nicolas Bujan portfolio",
     technology:"HTML, CSS, JavaScript, Bootstrap",
@@ -132,8 +132,8 @@ const proyects=[
     repository:"",
 },
 {
-    id:"2",
-    img:"../images/Proyect1.jfif",
+    id:2,
+    img:"../public/imgArray/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -141,8 +141,8 @@ const proyects=[
     repository:"",
 },
 {
-    id:"3",
-    img:"../images/Proyect1.jfif",
+    id:3,
+    img:"../public/imgArray/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -150,8 +150,8 @@ const proyects=[
     repository:"",
 },
 {
-    id:"4",
-    img:"../images/Proyect1.jfif",
+    id:4,
+    img:"../public/imgArray/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
@@ -159,8 +159,8 @@ const proyects=[
     repository:"",
 },
 {
-    id:"5",
-    img:"../images/Proyect1.jfif",
+    id:5,
+    img:"../public/imgArray/Proyect1.jfif",
     name:"My Portfolio",
     description:"",
     technology:"",
