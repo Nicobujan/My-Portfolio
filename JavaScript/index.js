@@ -3,7 +3,7 @@ const skills=[
     {
         id: 1,
         name: "ReactJS",
-        image: "../public/imgArray/react-logo.png",
+        image: "../images/DESARROLLO WEB.png",
         nivel: "Intermediate"
     },
     {
