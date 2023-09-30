@@ -1128,6 +1128,81 @@ letter-spacing: normal;
 
 }
 
+@media screen and (max-width:311px){
+
+#title-proyects{
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+#proyect-container{
+    padding-top: 100px;
+    
+}
+
+#title-studies{
+    display: none;
+} 
+
+.studies-img-container{
+    display: none;
+}
+.skill-card-body{
+    width: 200px;
+}
+
+.form-container{
+    width: 285px;
+}
+
+#text-area{
+    width: 245px;
+}
+
+
+
+}
+
+@media screen and (max-width:302px){
+
+.form-container{
+    width: 245px;
+}
+
+.list-networks{
+    width: 240px;
+}
+
+.list-networks li{
+    width: 50px;
+}
+
+.list-networks li a{
+    width:30px ;
+}
+
+.soft-skill-card{
+    width:200px ;
+}
+
+.soft-skill-name{
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
